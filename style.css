@@ -1,0 +1,247 @@
+/* parte superior */
+.ingresar{
+    display: flex;
+    height: 50px;  
+}
+.titulo-pagina{
+    color: rgb(92, 112, 224);
+    font-size: 30px;
+    margin: 10px 0px 0px 50px ;
+}
+.ingresar-boton{
+    color: rgb(0, 0, 0);
+    background-color: rgb(128, 143, 228);
+    border: transparent;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    margin:10px 0px 0px 1000px;
+}
+.ingresar-boton:hover{
+    background-color: rgba(92, 121, 216, 0.432);;
+}
+/* botones para ir a algun lugar de la pagina */
+.descuentos-boton{
+    color: rgb(0, 0, 0);
+    background-color: transparent;;
+    border: transparent;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    margin:10px 0px 0px -740px;
+}
+.descuentos-boton:hover{
+    background-color: rgba(92, 121, 216, 0.336);;
+}
+.favoritos-boton{
+    color: rgb(0, 0, 0);
+    background-color: transparent;;
+    border: transparent;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    margin:10px 0px 0px -620px;
+}
+.favoritos-boton:hover{
+    background-color: rgba(92, 121, 216, 0.336);;
+}
+
+.novedades-boton{
+    color: black;
+    background-color: transparent;
+    border: transparent;
+    font-size: 20px;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 10px 0px 0px -500px;
+}
+.novedades-boton:hover{
+    background-color: rgba(92, 121, 216, 0.336);;
+}
+
+/* imagen y letras*/
+.contenedor-imagen{
+    width: 650px;
+    height: 700px;
+    background-color: transparent;
+}
+.contenedor-inicial {
+    display: flex;
+    width: 1300px;
+    height: 700px;
+    margin: 0px auto;
+    background-color: transparent;
+}
+img{
+    display: block;
+    width: 500px;
+    height: 550px;
+   margin: 50px 100px 100px 100px;
+}
+.informacion{
+    display: block;
+    width: 550px;
+    height: 550px;
+   margin: 270px auto 100px;
+   text-align: center;
+}
+.titulo-compras{
+    color: black;
+    font-size: 30px;
+}
+.informacion-ropa{
+    color: black;
+    font-size: 20px
+}
+.info{
+    color: white;
+    font-size: 20px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: -100px auto 100px;
+    text-align: left;
+    cursor: pointer;
+}
+.info-2{
+    color: white;
+    font-size: 20px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: -100px auto 100px;
+    text-align: left;
+    cursor: pointer;
+
+}
+.descuentos{
+    flex-direction: column;
+    display: block;
+    width: 300px;
+    height: 300px;
+   margin: -10px 0px 20px 180px ;
+}
+.favoritos{
+    flex-direction: column;
+    display: block;
+    width: 300px;
+    height: 300px;
+   margin: -320px 0px 35px 600px ;
+}
+
+.novedades{
+    flex-direction: column;
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: -337px 0px 40px 1000px;
+}
+
+/* segundo boton de ingresar */
+.ingresar-boton2{
+    color: rgb(0, 0, 0);
+    background-color: rgb(128, 143, 228);
+    border: transparent;
+    width: 150px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    margin:auto ;
+}
+.ingresar-boton2:hover{
+    background-color: rgba(92, 121, 216, 0.521);;
+}
+/* pie de pagina */
+.pie-pagina{
+    background-color: rgb(92, 112, 224);
+    border-color: black;
+    height: 300px;
+}
+.img-1{
+    display: block;
+    width: 30px;
+    height: 30px;
+   margin: auto 50px;
+}
+.img-2{
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: -30px 50px 10px 100px;
+}
+.img-3{
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: -40px 50px 10px 150px;
+}
+.img-4{
+    position: relative;
+    display: block;
+    width: 33px;
+    height: 33px;
+    margin: -42px 50px 10px 200px;
+}
+.img-5{
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: -40px 50px 10px 250px;
+}
+.img-6{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: -412px 50px 10px 230px;
+}
+.img-7{
+    position: relative;
+    display: block;
+    width: 40px;
+    height: 40px;
+    top: -1195px;
+    right: -100px;
+}
+.ingresar-boton3{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);;
+    border: transparent;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    margin: -110px 0px 50px 1250px;
+    
+}
+.ingresar-boton3:hover{
+    background-color: rgba(255, 255, 255, 0.678);;
+}
+.titulo-pagina3{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin: 0px 0px 0px 80px;
+}
+
+
+
+
